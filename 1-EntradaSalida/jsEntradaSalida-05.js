@@ -16,4 +16,5 @@ function mostrar()
 	alert(mensaje);
 }
 
-// Pedro Radetich
+/*Pedro Radetich
+Div z*/
