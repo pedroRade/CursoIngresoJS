@@ -6,9 +6,11 @@ function mostrar()
 {
 	var nombre;
 	
-	nombre = prompt("ingrese su nombre"); 
-	txtIdNombre.value = nombre;
+	nombre = prompt("Ingrese un nombre"); 
+	document.getElementById("txtIdNombre").value = nombre;
 }
 
 
 //"txtIdNombre"
+
+// Pedro Radetich

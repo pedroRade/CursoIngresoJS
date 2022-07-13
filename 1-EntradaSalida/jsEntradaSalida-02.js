@@ -4,7 +4,7 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	var nombre;
-
+	
 	nombre = prompt();                                                                         
 	alert(nombre);
 }

@@ -10,9 +10,10 @@ function mostrarAumento()
 	var incremento;
 	//var cartel;
 
-	sueldo = parseInt(document.getElementById("txtIdSueldo").value); //Anido la funcion
+	sueldo = parseInt(document.getElementById("txtIdSueldo").value); 
+	//Asigno el valor de txtIdSueldo (que la recibe por caja) a la variable sueldo     
 
-	incremento = sueldo * 0.1;
+	incremento = sueldo * 0.1; //equivale al 10 por cien de sueldo
 	
 	sueldoIncrementado = incremento + sueldo; 
 
