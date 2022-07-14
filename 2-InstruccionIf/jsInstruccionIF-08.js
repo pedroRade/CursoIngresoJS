@@ -53,9 +53,9 @@ no es menor.'
 // 	}
 // }
 
+
 // Con esto solo alcanzaba
 // *** Mejor Version ***
-
 function mostrar()
 {
 	var edad;
