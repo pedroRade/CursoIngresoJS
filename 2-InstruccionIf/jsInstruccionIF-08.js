@@ -18,9 +18,9 @@ no es menor.'
 
 // 	if(! (edad < 18 && estadoCiv != "Soltero")) //Si no es menor ni estado civil distinto de soltero
 // 	{
-// 		if(edad > 17 && estadoCiv == "Soltero")
+// 		if(edad > 17 && estadoCiv == "Soltero") // evaluo si se dan las 2 condiciones simultaneas
 // 		{
-// 			alert("Es soltero y no es menor");
+// 			alert("Es soltero y no es menor");  //Si si....
 // 		}
 // 	}
 // }//FIN DE LA FUNCIÓN
