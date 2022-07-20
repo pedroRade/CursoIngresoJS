@@ -5,30 +5,30 @@ Al ingresar una edad debemos informar si la persona es
 mayor de edad (mas de 18 años) o adolescente (entre 13 y 17 años) o niño (menor a 13 años).
 */
 
-// function mostrar()
-// {
-// 	var edad;
+function mostrar()
+{
+	var edad;
 
-// 	edad = document.getElementById("txtIdEdad").value;    
-// 	edad = parseInt(edad);
+	edad = document.getElementById("txtIdEdad").value;    
+	edad = parseInt(edad);
 
-// 	if(edad > 17)
-// 	{
-// 		alert("Es mayor de edad");
-// 	}
-// 	else
-// 	{
-// 		if(edad > 12)
-// 		{
-// 			alert("Es adolescente");
-// 		}
-// 		else
-// 		{
-// 			alert("Es niño");
-// 		}
-// 	}
+	if(edad > 17)
+	{
+		alert("Es mayor de edad");
+	}
+	else
+	{
+		if(edad > 12)
+		{
+			alert("Es adolescente");
+		}
+		else
+		{
+			alert("Es niño");
+		}
+	}
 
-// }//FIN DE LA FUNCIÓN
+}//FIN DE LA FUNCIÓN
 
 //"txtIdEdad"
 
@@ -187,65 +187,64 @@ Si la edad es par , además mostrar , “sos par!!”.
 
 
 //otra forma
-function mostrar()
-{
-	var mensaje;
-	var edad;
-	var esAdolescente;
+// function mostrar()
+// {
+// 	var mensaje;
+// 	var edad;
+// 	var esAdolescente;
 	
-	edad = document.getElementById("txtIdEdad").value;    
-	edad = parseInt(edad);
-
-	esAdolescente  = edad < 18 && edad > 12;
+// 	edad = document.getElementById("txtIdEdad").value;    
+// 	edad = parseInt(edad);
+// 	esAdolescente  = edad < 18 && edad > 12;
 	
 
-	if(edad < 13) //si es niño...
-	{
-		mensaje = "feliz dia";
-	}
-	else
-	{
-		if(esAdolescente)
-		{
-			mensaje = "usted es adolescente";
+// 	if(edad < 13) //si es niño...
+// 	{
+// 		mensaje = "feliz dia";
+// 	}
+// 	else
+// 	{
+// 		if(esAdolescente)
+// 		{
+// 			mensaje = "usted es adolescente";
 		
-			if(edad == 17)
-			{
-			mensaje = mensaje + " ultimo año!!"; 
-			}
-		}
-		else //si no es niño ni adolescente, es mayor
-		{
-			if(edad > 60)
-			{
-				mensaje = "A jubilarse";
+// 			if(edad == 17)
+// 			{
+// 			mensaje = mensaje + " ultimo año!!"; 
+// 			}
+// 		}
+// 		else //si no es niño ni adolescente, es mayor
+// 		{
+// 			if(edad > 60)
+// 			{
+// 				mensaje = "A jubilarse";
 
-				if(edad == 88)
-				{
-					mensaje = mensaje + " lindo numero!";
-				}
-			}
-			else
-			{	
-				mensaje = "Tenes edad de laburar";
+// 				if(edad == 88)
+// 				{
+// 					mensaje = mensaje + " lindo numero!";
+// 				}
+// 			}
+// 			else
+// 			{	
+// 				mensaje = "Tenes edad de laburar";
 			
-				if(edad == 33)
-				{
-					mensaje = mensaje + " Como cristo";
-				}
-			}
-		}
-	}
+// 				if(edad == 33)
+// 				{
+// 					mensaje = mensaje + " Como Cristo";
+// 				}
+// 			}
+// 		}
+// 	}
 
-	if(edad % 2 == 0) //Si la edad es par...
-	{
-		mensaje =  mensaje + " y ademas sos par!"; //entonces...
-	}
-	// si no, salgo...
+// 	if(edad % 2 == 0) //Si la edad es par...
+// 	{
+// 		mensaje =  mensaje + " y ademas sos par!"; //entonces...
+// 	}
+// 	// si no, salgo...
 	
-	alert(mensaje);	
+// 	alert(mensaje);	
 
-}
+// }
 		
 			
 

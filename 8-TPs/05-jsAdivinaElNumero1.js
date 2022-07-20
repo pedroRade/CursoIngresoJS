@@ -13,8 +13,9 @@ var contadorIntentos;
 function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
-	 
-		//alert(numeroSecreto );
+	numeroSecreto = Math.floor(Math.random() * 100) + 1;
+		
+	//alert(numeroSecreto );
 	
 
 }
