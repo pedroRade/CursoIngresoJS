@@ -82,21 +82,23 @@
 					}
 				}
 			}
-		}
+		} 	
 
 		descuento = precioFinal * descuento;
 		precioFinal = precioFinal - descuento;
 		
-		document.getElementById("txtIdprecioDescuento").value = "El precio con descuento es de $ " 
-		+ precioFinal.toFixed(2);		
-		
+				
 		if(precioFinal > 120)
 		{   
 			//alert("Usted pago $" + precioFinal * 0.1 + " de IIBB"); //otra manera sin usar 
 																		//var ingresosBrutos
 			ingresosBrutos = 0.1 * precioFinal;
+			precioFinal = precioFinal + ingresosBrutos;
 			alert("Usted pago $ " + ingresosBrutos + " de IIBB");
 		}
+
+		document.getElementById("txtIdprecioDescuento").value = "El precio con descuento es de $ " 
+		+ precioFinal.toFixed(2);
 	}
 
 	// "ArgentinaLuz"
