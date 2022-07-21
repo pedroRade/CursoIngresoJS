@@ -1,3 +1,7 @@
+// Radetich, Pedro
+// Div Z
+
+
 /*
 al seleccionar un mes informar.
 si estamos en Invierno: "Abrigate que hace frio."
@@ -5,46 +9,20 @@ si aún no llego el Invierno: "Falta para el invierno."
 si ya paso el Invierno: "Ya pasamos el frio, ahora calor!!!."
 ACLARAcIÓN: tomamos a Julio y Agosto como los meses de Invierno.
 */
-
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño;
+	var mesDelAnio;
 	var mensaje;
 
-	mesDelAño = document.getElementById("txtIdMes").value;
+	mesDelAnio = document.getElementById("txtIdMes").value;
 	
-	switch(mesDelAño)
+	switch(mesDelAnio)
 	{
-		case "Julio":
-		mensaje = "ABRIGATE que hace frio";
-		break;
-
-		case "Agosto":
-		mensaje = "Abrigate que hace frío";
-		break;
-
-
-		case "Setiembre":
-		mensaje = "Ya pasamos el frio, ahora calor";
-		break;
-
-		case "Octubre":
-		mensaje = "Ya pasamos el frio, ahora calor";
-		break;
-
-		case "Noviembre":
-		mensaje = "Ya pasamos el frio, ahora calor";
-		break;
-
-		case "Diciembre":
-		mensaje = "Ya pasamos el frio, ahora calor";
-		break;
-
 		case "Enero":
-		.
-		.
-		.
+		case "Febrero":
+		case "Marzo":
+		case "Abril":
+		case "Mayo":
 		case "Junio":
 		mensaje = "Falta para el invierno";
 		break;
@@ -53,9 +31,20 @@ function mostrar()
 		case "Agosto":
 		mensaje = "Abrigate que hace frío";
 		break;
+		
+		case "Setiembre":
+		case "Octubre":
+		case "Noviembre":
+		case "Diciembre":
+		mensaje = "Ya pasamos el frio, ahora calor";
+		break;
 
+		alert(mensaje)
 
-
-}
-	alert(mensaje);
+	}
 }//FIN DE LA FUNCIÓN
+
+
+
+
+

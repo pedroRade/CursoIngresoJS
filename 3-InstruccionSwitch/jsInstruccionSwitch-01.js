@@ -1,3 +1,7 @@
+// Radetich Pedro
+// Div Z
+
+
 /*
 al seleccionar un mes informar.
 si es Enero: "que comiences bien el año!!!."
@@ -5,42 +9,38 @@ si es Marzo: "a clases!!!."
 si es Julio: "se vienen las vacaciones!!!."
 si es Diciembre: "Felices fiesta!!!."
 */
-
-
 function mostrar()
 {
 	//tomo el mes
-	var mesDelAño; //= txtIdMes.value;
+	var mesDelAnio; 
 	var mensaje;
 
 	mesDelAño = document.getElementById("txtIdMes").value;
 
-	switch(mesDelAño)
+	switch(mesDelAnio)
 	{
 	 	case "Enero":
-	 		mensaje = "  ";
+	 		mensaje = "que comiences bien el anio!!";
 	 		break;
 
 	 	case "Marzo":
-	 		mensaje = " ";
+	 		mensaje = "a clases!!!.";
 	 		break;
 
 	 	case "Julio":
-	 		mensaje = " ";
+	 		mensaje = "se vienen las vacaciones!!!.";
 	 		break;
 
 	 	case "Diciembre":
-	 		menaje = "  "
+	 		menaje = "Felices fiesta!!!."
 	 		break;
 	 }
 
 	 alert(mensaje);
+}//FIN DE LA FUNCIÓN
+//txtIdMes
 
-
-	// 	break; //rompe y sale
+// 	break; //rompe y sale
 
 	// 	default; //por defecto
 	// }
-
-}//FIN DE LA FUNCIÓN
-//txtIdMes

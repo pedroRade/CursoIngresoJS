@@ -21,7 +21,7 @@ function mostrar()
 		mensaje = "Este mes no tiene mas de 29 dias";
 		break;
 
-		// default:
+		default:
 		mensaje = "este mes tiene 30 dias o mas";
 		break;
 	}
