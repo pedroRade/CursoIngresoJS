@@ -4,7 +4,10 @@
 
 /*
 Al presionar el botón pedir  números  hasta que el usuario quiera,
-mostrar el número máximo y el número mínimo ingresado.*/
+mostrar el número máximo y el número mínimo ingresado.
+*/
+// Se asume el ingreso de al menos 1 numero, se trabajara en enteros o parte entera de un Float
+
 function mostrar()
 {	// declarar variables
 	var banderaDelPrimero;
@@ -24,12 +27,12 @@ function mostrar()
 		numeroIngresado = prompt("Ingrese un numero");
 		numeroIngresado = parseInt(numeroIngresado);
 		
-		if(banderaDelPrimero) //la primera vez evalua a True
+		if(banderaDelPrimero) //El primer numero seguro entra
 		{
 			numeroMaximo = numeroIngresado;
 			numeroMinimo = numeroIngresado;
 		}
-		else
+		else // son al menos 2 numeros...
 		{
 			if(numeroIngresado < numeroMinimo) //Si existe uno menor al minimo...
 			{
@@ -39,15 +42,17 @@ function mostrar()
 			if(numeroIngresado > numeroMaximo) //Si existe uno mayor al maximo...
 			{
 				numeroMaximo = numeroIngresado; //Ya deja de ser el maximo
+				// banderaDelPrimero = false; // una prueba...jamas me reconoce mas de 1 numero
 			}
 		}
 		
-		banderaDelPrimero = false; //Si vuelvo a ingresar al while el ingresado no sera el primero
-		respuesta = confirm("Desea seguir?");
+		banderaDelPrimero = false; // Si vuelvo a ingresar al while el siguiente numero 
+									// ya no sera el primero
+		respuesta = confirm("Desea ingresar otro numero?");
 	}
 
-
 	txtIdMaximo.value = numeroMaximo;
+	
 	txtIdMinimo.value = numeroMinimo;
 
 }//FIN DE LA FUNCIÓN
