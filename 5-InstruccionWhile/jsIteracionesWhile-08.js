@@ -7,7 +7,7 @@ Al presionar el botón pedir  números  hasta que el usuario quiera,
 sumar los que son positivos y multiplicar los negativos.*/
 
 //Se asume el ingreso de al menos un numero 
-/*function mostrar()
+function mostrar()
 {
 	var contador;
 	var respuesta;
@@ -63,13 +63,13 @@ sumar los que son positivos y multiplicar los negativos.*/
 		txtIdProducto.value = multiplicacionNegativos;
 	}
 }//FIN DE LA FUNCIÓN	
-*/
+
 
 
 
 
 // Otra VERSION
-function mostrar()
+/*function mostrar()
 {
 	var contador;
 	var respuesta;
@@ -128,7 +128,7 @@ function mostrar()
 		txtIdProducto.value = multiplicacionNegativos;
 	}
 }//FIN DE LA FUNCIÓN	
-
+*/
 
 // Otra forma del ciclo while
 
