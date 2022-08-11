@@ -120,11 +120,11 @@ function mostrar()
 
 	if(totalChocolate >= 30 && totalAlmendra >= 5 && totalDulce >= 20)//si las cantidades en kg son al menos esas...
 	{
-		console.log("las cantidades de insumos alcanzan para producir 1000 bombones"); //informo
+		console.log("la cantidades de insumos disponibles alcanzan para producir 1000 bombones"); //informo
 	}	
 	else
 	{
-		console.log("las cantidades de insumos disponibles no alcanzan para producir 1000 bombones");
+		console.log("la cantidades de insumos disponibles no alcanzan para producir 1000 bombones");
 	}
 
 }//FIN DE FUNCION
